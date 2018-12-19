@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="surveyform.css" rel="stylesheet" type="text/css"/>
+  <link href="decoration.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <div class="titleBox">
+    <h1>Programming Survey</h1>
+    <h4>Tell us your years of experience as a developer!</h4>
+  </div>
+  <div class="survey">
+    <form id="surveyform" id="formOne">
+    <div id="chd">
+      <label>Name: </label>
+    </div>
+    <div id="ihd">
+      <input type="text" placeholder="John">
+    </div>
+    <div id="chd">
+      <label for="hoursWrk">Number of hours you work per week:</label>
+    </div>
+    <div id="ihd">
+      <input type="number" placeholder="1" />
+    </div>
+    <div id="chd">
+      <label for="emailPlc">Email address: </label>
+    </div>
+    <div id="ihd">
+      <input type="email" placeholder="youremail@email.com" />
+    </div>
+    <div id="chd">
+        <label for="langUsed">Which Language you often used?</label>
+    </div>
+    <div id="ihd">
+      <select name="langUsed">
+        <option value="Java">Java</option>
+        <option value="C">C</option>
+        <option value="Python">Python</option>
+        <option value="Ruby">Ruby</option>
+      </select>
+    </div>
+    <div id="chd">
+      <label>Are you learning Web Development for: </label>
+    </div>
+    <div class="radioBox">
+      <label>Business<input type="radio" id="radioElement" name="pp"></label>
+      <label>Career<input type="radio" id="radioElement" name="pp"></label>
+      <label>Hobby<input type="radio" id="radioElement" name="pp"></label>
+      <label>Others<input type="radio" id="radioElement" name="pp"></label>
+    </div>
+    <div class="buttonDiv"><button id="submitButton" form="formOne">Submit</button></div>
+  </form>
+  </div>
+</body>
+</html>
